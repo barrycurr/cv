@@ -1,0 +1,174 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Barry Curr
+    tagline: Systems Administrator and DevOps
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: barry@meaz.org
+    # phone: 012 345 6789
+    website: tombarry.co.uk #do not add http://
+    linkedin: barrycurr
+    github: barrycurr
+    telegram: barrycurr
+    gitlab: 
+    bitbucket: barrycurr
+    twitter: '@barrycurr'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: Native
+
+    interests:
+      - item: Football
+        link:
+
+      - item: Snowboarding
+        link:
+
+      - item: Onewheel
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      With over 20 years’ experience in diverse and challenging roles within some of the world’s leading organisations, I have had the opportunity to build broad technical and project implementation skills.
+      With the ability to adapt to new challenges as well as a keen eye for detail this has allowed me to build upon my background in IT systems and management, and progress into a proven deliverer of business systems.
+# education:
+experiences:
+    - role: UK IT Manager
+      time: February 2014 - Present
+      company: IKO
+      details: |
+        Day to Day:
+          - 3 Staff, 4 Sites
+          - Responsible for all aspects of IT within the UK business
+          - Collaboration with European and North American peers
+
+          Completed Projects:
+          - Upgraded all disparate servers within the UK to standard HP models.
+          - All servers virtualised with VMware.
+          - Managed upgrade of phone system from old physical BCM/Nortel to virtualised Avaya IP Office
+
+          Current Projects:
+          - Global IDP and MFA
+    - role: Owner and Solutions Architect
+      time: January 2014 - Present
+      company: Tombarry
+      details: |
+        Architect, Developer and Supplier of custom built, web based Business Intelligence solutions to SME's.
+        Current systems include sales analysis, sales forecasting input, warehouse management integration and automated email reporting of custom data analysis requirements. 
+    - role: Information Systems and Business Intelligence Manager
+      time: May 2007 - January 2014
+      company: Fredericks Dairies
+      details: |
+        Business Intelligence/Reporting:
+
+        Microsoft SQL and Web solutions to enable powerful analysis of transactional systems and new insights of performance, including:
+
+        - Live and historical sales analysis, moving the business from a daily manual sales reporting process to easy-to-access live reporting and analysis.
+        - Past, present and future sales forecasting analysis, with the ability to amend the SAP finance and
+        controlling via a simple web interface which uses SAP Business Application Programming Interfaces. This sped up the forecasting process and reduced costly errors.
+        - Multi-level profitability reporting with the ability to compare customers and account managers, allowing immediate performance evaluation for internal and external use.
+        - Material variance reporting and analysis from finished goods down to core components, helping to vastly reduce discrepancies and improve factory efficiencies.
+        - Report highlighting non-usable stock, with daily emails highlighting product movements.
+        - Open purchase order reporting with daily emails to users, enabling the finance and commercial teams to dramatically lessen outstanding deductions.
+
+        Systems Management:
+        - Server Virtualisation including VMware Technologies.
+        - Microsoft Windows Domain/Network Architecture, Implementation and Management.
+        - Microsoft Exchange 2010 Deployment and Management.
+        - SAP Business Suite Development and Management.
+        - Microsoft SQL Implementation, Management and Reporting.
+        - Microsoft SharePoint Intranet Deployment and Development.
+        - Sophos Astaro Firewall.
+        - Backup, Resilience and Disaster Recovery.
+
+        Significant Projects:
+        - Virtualisation of entire Server Environment.
+        - Planned and managed major SAP upgrade and migration in conjunction with Technology Partner.
+        - Migration/upgrade from Exchange 2003 to 2010.
+        - SharePoint 2010 workflow based multi-user sign off system
+    - role: European IS Support Analyst
+      time: November 2004 - May 2007
+      company: HJ Heinz
+      details: |
+        - Windows 2000/2003 Domain/Networking Administration
+        - Active Directory Management
+        - Terminal Services and Citrix MetaFrame Administration
+        - Veritas Cluster Management
+        - SQL Database Administration
+        - SQL Data Reporting 
+    - role: IT Coordinator
+      time: 2001 - 2004
+      company: BASF
+      details: |
+        - Windows 2000 Domain/Networking and Exchange Management
+        - Active Directory Management
+        - LAN/WAN Administration (including Firewall/Remote Connectivity)
+        - Terminal Services Management
+        - Company Web Site/Intranet Development
+        - PHP Web Solutions utilising MS SQL and MySQL
+        - Backup and Disaster Recovery
+        - Sage Support and Development
+        - Navision Support and Development 
+    - role: IT Analyst
+      time: 1998 - 2001
+      company: BBC
+      details: |
+        - Windows 2000 Domain/Networking Management
+        - Active Directory Management
+        - Developed Call Logging System within MS Access
+        - Technical Facilitator for North of England for Millenium compliance of applications
+        - Developed New Starter Form using MS Outlook and VBScript
+        - Centralised Application Packaging using WinInstall
+projects:
+    title: Projects
+    # intro: >
+    #   Some intro
+    assignments:
+      - title: UA Stats
+        link: "https://unrealadmin.org/"
+        tagline: "Web based statistics package for Unreal Tournament."
+
+# publications:
+#     title: Publications
+#     intro: |
+#       None
+#     papers:
+#       - title: No Title
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Windows Domain, Exchange and Associated Tools
+        level: 90%
+
+      - name: PHP, MySQL, HTML & CSS
+        level: 60%
+
+      - name: Docker
+        level: 25%
+
+      - name: Packer
+        level: 15%
+
+      - name: Ansible
+        level: 10%
+
+footer: >
+    (c) Barry Curr
