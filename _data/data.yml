@@ -54,11 +54,6 @@ experiences:
       details: |
         
         Global Systems Administrator:
-          - Day to Day:
-            - 3 Staff, 4 Sites
-            - Responsible for all aspects of IT within the UK business
-            - Collaboration with European and North American peers
-
           - Completed Projects:
             - VMware upgrades from 6 -> 6.5 -> 6.7
             - [Docker](https://www.docker.com) Swarm implementation including migration of services mentioned below to docker containers   
