@@ -61,7 +61,8 @@ experiences:
 
           - Current Projects:
             - OneLogin Global IDP and MFA
-              - Migration of all ADFS/SAML application to One
+              - Migration of all ADFS/SAML application to OneLogin
+            - Attempting documentation collaboration utilising GitHub (see: [How GitHub uses GitHub to document GitHub](https://www.youtube.com/watch?v=s46m8H4BrrE))
             - OS golden image/template automation using packer
             - Ansible setup
 
