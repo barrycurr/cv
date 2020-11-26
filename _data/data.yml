@@ -168,9 +168,9 @@ projects:
     # intro: >
     #   Some intro
     assignments:
-      - title: UA Stats
-        link: "https://unrealadmin.org/"
-        tagline: "Web based statistics package for Unreal Tournament."
+      - title: UTStats
+        link: "https://ustats.unrealadmin.org/"
+        tagline: "Web based statistics package for Unreal Tournament.  15 years later live examples can still be <a href=\"https://www.google.com/search?q=utstats\" target=\"_blank\">found</a>."
 
 # publications:
 #     title: Publications
@@ -190,7 +190,7 @@ skills:
         level: 5%
 
       - name: Docker, Linux
-        level: 20%
+        level: 30%
 
       - name: BI, SQL, Data Warehouse
         level: 60%
