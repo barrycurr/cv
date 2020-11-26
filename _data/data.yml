@@ -3,73 +3,101 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Barry Curr
-    tagline: Systems Administrator and DevOps
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: <br>Systems Administrator, <br>BI Developer and<br>DevOps Padawan
+    avatar: profile_bw.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: barry@meaz.org
     # phone: 012 345 6789
-    website: tombarry.co.uk #do not add http://
+    # website: tombarry.co.uk #do not add http://
     linkedin: barrycurr
     github: barrycurr
-    telegram: barrycurr
-    gitlab: 
-    bitbucket: barrycurr
+    # telegram: barrycurr
+    # gitlab: barrycurr
+    # bitbucket: barrycurr
     twitter: '@barrycurr'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: English
-        level: Native
+    # languages:
+    #   - idiom: English
+    #     level: Native
 
     interests:
-      - item: Football
+      - item: DevOps / IaC / Tech Automation
         link:
 
-      - item: Snowboarding
+      - item: Football / Onewheel / Snowboarding
         link:
 
-      - item: Onewheel
+      - item: 3D Printing / Drones / 360 Cameras
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      With over 20 years’ experience in diverse and challenging roles within some of the world’s leading organisations, I have had the opportunity to build broad technical and project implementation skills.
-      With the ability to adapt to new challenges as well as a keen eye for detail this has allowed me to build upon my background in IT systems and management, and progress into a proven deliverer of business systems.
+      Skilled Systems Administrator of 20+ years with experience in architecting, optimising and automating infrastructure.
+
+
+      Proficient in many areas matched with a keen desire to make things better and simpler.
 # education:
 experiences:
-    - role: UK IT Manager
-      time: February 2014 - Present
+    - role: UK IT Manager / Global Systems Administrator
+      time: 2014 - Present
       company: IKO
       details: |
-        Day to Day:
-          - 3 Staff, 4 Sites
-          - Responsible for all aspects of IT within the UK business
-          - Collaboration with European and North American peers
+        
+        Global Systems Administrator:
+          - Day to Day:
+            - 3 Staff, 4 Sites
+            - Responsible for all aspects of IT within the UK business
+            - Collaboration with European and North American peers
 
-          Completed Projects:
-          - Upgraded all disparate servers within the UK to standard HP models.
-          - All servers virtualised with VMware.
-          - Managed upgrade of phone system from old physical BCM/Nortel to virtualised Avaya IP Office
+          - Completed Projects:
+            - VMware upgrades from 6 -> 6.5 -> 6.7
+            - [Docker](https://www.docker.com) Swarm implementation including migration of services mentioned below to docker containers   
+              Also setup [NGINX](https://www.nginx.com) to act as a reverse proxy to make https secure connections to all container services
 
-          Current Projects:
-          - Global IDP and MFA
+          - Current Projects:
+            - OneLogin Global IDP and MFA
+              - Migration of all ADFS/SAML application to One
+            - OS golden image/template automation using packer
+            - Ansible setup
+
+        IT Manager:
+          - Day to Day:
+            - 3 Staff, 4 Sites
+            - Responsible for all aspects of IT within the UK business
+            - Collaboration with European and North American peers on projects and standards
+
+          - Completed Projects:
+            - Standardisation of all server hardware
+            - Virtualisation of all servers as well as any key end user services eg. Payroll
+            - VMware upgrades from 5 -> 6
+            - Upgrade and migration of physical BCM/Nortel phone system virtualised Avaya IP Office
+            - Standardised OS imaging and deployment using [FOG](https://fogproject.org)
+            - Setup, administration and configuration of:
+              - [Mediawiki](mediawiki.org) platform for documetnation and the migration/re-write of all file based documentation to standardised format
+              - [Snipe-IT](https://snipeitapp.com) for Asset Management and the import of all known asset data from various systems
+              - [WordPress](https://wordpress.com) intranet site and the migration of all previous content
+              - [Netdisco](https://wordpress.com) web based networking management tool
+              - [Oxidized](https://github.com/ytti/oxidized) network device configuration backup tool (replacment for [RANCID](https://shrubbery.net/rancid))
+
     - role: Owner and Solutions Architect
-      time: January 2014 - Present
+      time: 2014 - Present
       company: Tombarry
       details: |
-        Architect, Developer and Supplier of custom built, web based Business Intelligence solutions to SME's.
+        Architect, developer and supplier of custom built, web based Business Intelligence solutions to SME's.
         Current systems include sales analysis, sales forecasting input, warehouse management integration and automated email reporting of custom data analysis requirements. 
+    
     - role: Information Systems and Business Intelligence Manager
-      time: May 2007 - January 2014
+      time: 2007 - 2014
       company: Fredericks Dairies
       details: |
         Business Intelligence/Reporting:
@@ -99,8 +127,9 @@ experiences:
         - Planned and managed major SAP upgrade and migration in conjunction with Technology Partner.
         - Migration/upgrade from Exchange 2003 to 2010.
         - SharePoint 2010 workflow based multi-user sign off system
+    
     - role: European IS Support Analyst
-      time: November 2004 - May 2007
+      time: 2004 - 2007
       company: HJ Heinz
       details: |
         - Windows 2000/2003 Domain/Networking Administration
@@ -109,6 +138,7 @@ experiences:
         - Veritas Cluster Management
         - SQL Database Administration
         - SQL Data Reporting 
+    
     - role: IT Coordinator
       time: 2001 - 2004
       company: BASF
@@ -122,6 +152,7 @@ experiences:
         - Backup and Disaster Recovery
         - Sage Support and Development
         - Navision Support and Development 
+    
     - role: IT Analyst
       time: 1998 - 2001
       company: BBC
@@ -152,23 +183,29 @@ projects:
 #         conference: Addison-Wesley, 1968
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills
 
     toolset:
-      - name: Windows Domain, Exchange and Associated Tools
-        level: 90%
+      - name: Ansible, Packer, Kubernetes
+        level: 5%
+
+      - name: Docker, Linux
+        level: 20%
+
+      - name: BI, SQL, Data Warehouse
+        level: 60%
 
       - name: PHP, MySQL, HTML & CSS
         level: 60%
 
-      - name: Docker
-        level: 25%
+      - name: Scripting
+        level: 70%
 
-      - name: Packer
-        level: 15%
+      - name: VMware
+        level: 70%
 
-      - name: Ansible
-        level: 10%
+      - name: Windows Domain, Exchange and Associated Tools
+        level: 80%
 
 footer: >
-    (c) Barry Curr
+    © Barry Curr
