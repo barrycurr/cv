@@ -57,18 +57,19 @@ experiences:
           - Completed Projects:
             - VMware upgrades from 6 -> 6.5 -> 6.7
             - [Docker](https://www.docker.com) Swarm implementation including migration of services mentioned below to docker containers   
-              Also setup [NGINX](https://www.nginx.com) to act as a reverse proxy to make https secure connections to all container services
+              Setup [NGINX](https://www.nginx.com) to act as a reverse proxy to make https secure connections to all container services
+            - OS golden image/template automation using Packer
+              Windows 10, Windows Server 2016/2019, Linux
 
           - Current Projects:
             - OneLogin Global IDP and MFA
               - Migration of all ADFS/SAML application to OneLogin
             - Attempting documentation collaboration utilising GitHub (see: [How GitHub uses GitHub to document GitHub](https://www.youtube.com/watch?v=s46m8H4BrrE))
-            - OS golden image/template automation using packer
             - Ansible setup
 
         IT Manager:
           - Day to Day:
-            - 3 Staff, 4 Sites
+            - 2 Staff, 3 Sites
             - Responsible for all aspects of IT within the UK business
             - Collaboration with European and North American peers on projects and standards
 
@@ -79,7 +80,7 @@ experiences:
             - Upgrade and migration of physical BCM/Nortel phone system virtualised Avaya IP Office
             - Standardised OS imaging and deployment using [FOG](https://fogproject.org)
             - Setup, administration and configuration of:
-              - [Mediawiki](mediawiki.org) platform for documetnation and the migration/re-write of all file based documentation to standardised format
+              - [Mediawiki](https://mediawiki.org) platform for documetnation and the migration/re-write of all file based documentation to standardised format
               - [Snipe-IT](https://snipeitapp.com) for Asset Management and the import of all known asset data from various systems
               - [WordPress](https://wordpress.com) intranet site and the migration of all previous content
               - [Netdisco](https://wordpress.com) web based networking management tool
