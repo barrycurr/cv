@@ -42,8 +42,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Skilled Systems Administrator of 20+ years with experience in architecting, optimising and automating infrastructure.
-
+      Skilled Systems Administrator of 20+ years with experience in architecturing, optimising and automating infrastructure.
 
       Proficient in many areas matched with a keen desire to make things better, faster, simpler.
 
@@ -55,17 +54,18 @@ experiences:
       details: |
 
         Global Systems Administrator:
+
           - Completed Projects:
             - VMware upgrades from 6 -> 6.5 -> 6.7
             - [Docker](https://www.docker.com) Swarm implementation including migration of services mentioned below to docker containers  
               Setup [NGINX](https://www.nginx.com) to act as a reverse proxy to make https secure connections to all container services
-            - OS golden image/template automation using Packer  
+            - OS golden image/template automation using [Packer](https://www.packer.io/) and [FOG](https://fogproject.org/)  
               Windows 10, Windows Server 2019, Linux
-            - OneLogin Global IDP and MFA
+            - OneLogin Single Sign On (Global Identity Provider and MFA):
               - Architectural design including enabling of day to day administration via Windows Group Management
-              - Setup or Migration of all ADFS/SAML applications to OneLogin
+              - Setup and migration of all ADFS/SAML applications to OneLogin
               - Where possible setup of user provisioning/de-provisioning for simpler administration and license management eg. Salesforce
-            - PagerDuty Alerting
+            - PagerDuty Alerting:
               - Setup and Configuration of Services, On-Call Rotations and Teams
               - Onboard and integration setup of Monitoring Systems (vROps, Solarwinds)
               - Custom webhook development to enable integration of Helpdesk System
@@ -77,6 +77,7 @@ experiences:
             - Maintenance of Manufacturing HMI Systems Setup using Ansible
 
         IT Manager:
+
           - Day to Day:
             - 2 Staff, 3 Sites
             - Responsible for all aspects of IT infrastructure within the UK business including:
@@ -115,15 +116,16 @@ experiences:
 
         Microsoft SQL and Web solutions to enable powerful analysis of transactional systems and new insights of performance, including:
 
-        - Live and historical sales analysis, moving the business from a daily manual sales reporting process to easy-to-access live reporting and analysis.
-        - Past, present and future sales forecasting analysis, with the ability to amend the SAP finance and
-        controlling via a simple web interface which uses SAP Business Application Programming Interfaces. This sped up the forecasting process and reduced costly errors.
-        - Multi-level profitability reporting with the ability to compare customers and account managers, allowing immediate performance evaluation for internal and external use.
-        - Material variance reporting and analysis from finished goods down to core components, helping to vastly reduce discrepancies and improve factory efficiencies.
-        - Report highlighting non-usable stock, with daily emails highlighting product movements.
-        - Open purchase order reporting with daily emails to users, enabling the finance and commercial teams to dramatically lessen outstanding deductions.
+          - Live and historical sales analysis, moving the business from a daily manual sales reporting process to easy-to-access live reporting and analysis.
+          - Past, present and future sales forecasting analysis, with the ability to amend the SAP finance and
+          controlling via a simple web interface which uses SAP Business Application Programming Interfaces. This sped up the forecasting process and reduced costly errors.
+          - Multi-level profitability reporting with the ability to compare customers and account managers, allowing immediate performance evaluation for internal and external use.
+          - Material variance reporting and analysis from finished goods down to core components, helping to vastly reduce discrepancies and improve factory efficiencies.
+          - Report highlighting non-usable stock, with daily emails highlighting product movements.
+          - Open purchase order reporting with daily emails to users, enabling the finance and commercial teams to dramatically lessen outstanding deductions.
 
         Systems Management:
+
         - Server Virtualisation including VMware Technologies
         - Microsoft Windows Domain/Network Architecture, Implementation and Management
         - Microsoft Exchange 2010 Deployment and Management
@@ -134,9 +136,10 @@ experiences:
         - Backup, Resilience and Disaster Recovery
 
         Significant Projects:
-        - Virtualisation of entire Server Environment.
+
+        - Virtualisation of entire server environment.
         - Planned and managed major SAP upgrade and migration in conjunction with Technology Partner.
-        - Migration/upgrade from Exchange 2003 to 2010.
+        - Migration/Upgrade from Exchange 2003 to 2010.
         - SharePoint 2010 workflow based multi-user sign off system
 
     - role: European IS Support Analyst
@@ -145,10 +148,11 @@ experiences:
       details: |
         - Windows 2000/2003 Domain/Networking Administration
         - Active Directory Management
+        - OS Deployment
+        - Setup of Nagios Monitoring System
         - Terminal Services and Citrix MetaFrame Administration
         - Veritas Cluster Management
-        - SQL Database Administration
-        - SQL Data Reporting
+        - SQL Database Administration and Reporting
 
     - role: IT Coordinator
       time: 2001 - 2004
@@ -162,7 +166,7 @@ experiences:
         - PHP Web Solutions utilising MS SQL and MySQL
         - Backup and Disaster Recovery
         - Sage 500/1000 Support and Development
-        - Navision Support and Development
+        - Navision/Dynamics Support and Development
 
     - role: IT Analyst
       time: 1998 - 2001
@@ -176,13 +180,13 @@ experiences:
         - Centralised Application Packaging using WinInstall
 
 projects:
-    title: Projects
+    title: Personal Projects
     # intro: >
     #   Some intro
     assignments:
       - title: UTStats
         link: "https://ustats.unrealadmin.org/"
-        tagline: "Web based statistics package for Unreal Tournament.  15 years later live examples can still be <a href=\"https://www.google.com/search?q=utstats\" target=\"_blank\">found</a>."
+        tagline: "Web based statistics package for the game Unreal Tournament which was released in 1999.  15 years later live examples can still be <a href=\"https://www.google.com/search?q=utstats\" target=\"_blank\">found</a>."
 
 # publications:
 #     title: Publications
@@ -199,25 +203,25 @@ skills:
 
     toolset:
       - name: Ansible, Packer
-        level: 20%
-
-      - name: Docker, Linux
-        level: 30%
+        level: 40%
 
       - name: BI, SQL, Data Warehouse
         level: 60%
 
-      - name: PHP, MySQL, HTML & CSS
-        level: 60%
+      - name: Docker, Linux
+        level: 40%
 
-      - name: Scripting
+      - name: PHP, MySQL, HTML & CSS
         level: 70%
+
+      - name: Scripting (AutoIt, Powershell, etc)
+        level: 80%
 
       - name: VMware
-        level: 60%
+        level: 70%
 
       - name: Windows Domain, Exchange and Associated Tools
-        level: 70%
+        level: 80%
 
 footer: >
     © Barry Curr
